@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 50vw;
+    display: grid;
+    grid-template-rows: 10% 70%;
+}
+
+body header {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: blanchedalmond;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 80% 20%;
+    background-color: #AAAAAA;
+}
+
+main .questions {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    color: #0f0f0f;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+main .btn-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btn-container .previous-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn-container .next-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.next-btn,
+.previous-btn {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.next-btn:hover,
+.previous-btn:hover {
+    background: #555555;
+    color: red;
+}
+
+footer {
+    display: grid;
+}
+
+footer .input-table {
+    justify-self: center;
+    align-self: center;
+}
+
+footer .second-container {
+    justify-self: center;
+    align-self: center;
+}
+
+.second {
+    font-size: 50px;
+}
+
+footer .play-button-container {
+    justify-self: center;
+    align-self: center;
+}
+
+/* stop and pause button */
+.stop-button {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.stop-button:hover {
+    background: #555555;
+    color: red;
+}
+
+.pause-button {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.pause-button:hover {
+    background: #555555;
+    color: red;
+}
+
+.show-button {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.show-button:hover {
+    background: #555555;
+    color: red;
+}

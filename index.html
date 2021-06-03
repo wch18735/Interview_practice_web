@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>InterView Testing Web</title>
+        <link rel="shortcut icon" type="image/png" href="/img/favicon.ico">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 style="text-align: center;">면접</h1>
+        </header>
+        <main>
+            <div class="questions">Here are questions</div>
+            <div class="btn-container">
+                <span class="previous-container">
+                    <button class="previous-btn">previous</button>
+                </span>
+                <span class="next-container">
+                    <button class="next-btn">next</button>
+                </span>
+            </div>
+        </main>
+        <footer>
+            <div class="input-table">
+                <input type="file" id="input">
+            </div>
+
+            <div class="second-container">
+                <span class="second">0 sec</span>
+            </div>
+
+            <div class="play-button-container">
+                <button class="stop-button">
+                    <i class="fa fas fa-stop"></i>
+                </button>
+                <button class="pause-button">
+                    <i class="fa fas fa-pause"></i>
+                </button>
+                <button class="show-button showing">
+                    <i class="fa fas fa-clock"></i>
+                </button>
+            </div>
+        </footer>
+    </body>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+</html>
